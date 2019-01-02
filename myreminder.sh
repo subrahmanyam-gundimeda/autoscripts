@@ -1,2 +1,4 @@
 #/bin/bash
-python /home/subrahmanyam/Documents/mycronjobs/myreminder.py
+export DISPLAY=:0
+export PATH="/usr/bin:$PATH"
+/usr/bin/python /home/$(user)/Documents/mycronjobs/myreminder.py
